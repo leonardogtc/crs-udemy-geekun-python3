@@ -1,9 +1,9 @@
+
 """
 Listas
-
-Listas em Python funcionam como arrays/vetores/matrizes em outras linguagens com a diferença de serem 
+Listas em Python funcionam como arrays/vetores/matrizes em outras 
+linguagens com a diferença de serem 
 DINÂMICOS e também de podermos colocar qualquer tipo de dado.
-
 As listas em python são representadas por colchetes []
 """
 
