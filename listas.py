@@ -43,7 +43,8 @@ print(lista1)
 '''
 Em uma lista somente é possível adicionar um elemento por vez utilizando a 
 função "append" Para se adicionar mais elementos individuais deve-se utilizar 
-a função extend() passando uma lista dentro da função
+a função extend() passando uma lista dentro da função. A função extend() somente
+aceita iteráveis.
 '''
 
 lista1.extend([190, 191, 192])
@@ -55,3 +56,26 @@ uma lista será inserida dentro de outra
 '''
 lista1.append([180, 181, 182])
 print(lista1)
+
+# Inserir um novo elemento na lista informando sua posição:
+# Isso não substitui o valor inicial. O mesmo será deslocado para a direita.
+lista1.insert(2, 'Novo Valor')
+print(lista1)
+
+# Juntar duas listas
+# Extends:
+lista1.extend(lista2)
+print(lista1)
+
+# Criar uma nova lista
+lista6 = lista1 + lista2
+print(lista6)
+
+# Inverter uma listas
+lista2.reverse()
+print(lista2)
+
+# Copiar uma lista
+lista10 = [1, 2, 3, 4, 5, 6]
+lista11 = lista10.copy()
+print(lista11)
